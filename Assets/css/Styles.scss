@@ -1,0 +1,87 @@
+$color:#b4b4b4;
+body{
+    background-color: $color;
+}
+
+$back:rgba( 255, 255, 255, 0.25 );
+$box: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+$backdrop:blur( 60px );
+$-webkit:blur( 80px );
+$border-radi: 100px;
+$border:1px solid rgba( 255, 255, 255, 0.18 );
+.caja
+{
+    background: $back;
+    box-shadow: $box;
+    backdrop-filter: $backdrop;
+    -webkit-backdrop-filter:$-webkit;
+    border-radius: $border-radi;
+    height: 100%;
+    width: 100%;
+    border:$border;
+
+}
+.textos
+{
+    color: rgb(231, 12, 12);
+}
+
+.textos2
+{
+    color: rgb(199, 119, 44);
+}
+$font: x-large;
+$margin: center auto;
+nav .navbar-brand
+{
+    font-size: $font;
+    margin: $margin;
+}
+
+$fontSize: x-large;
+.navbar-light .navbar-nav .nav-link
+{
+    font-size: $fontSize;
+
+}
+
+$navBrand:#1740c991;
+nav .navbar-brand .blue
+{
+    color: $navBrand;
+}
+
+$navred: #ea433b;
+nav .navbar-brand .red
+{
+    color: $navred;
+}
+
+$navyellow : #da7a0d;
+nav .navbar-brand .orange
+{
+    color: $navyellow;
+}
+
+$bordeNav: 500px #25b143!important;
+
+.border/*borde de la barra de navegacion */
+{
+    border: $bordeNav;
+}
+ 
+$bglight: #212529!important;
+.bg-light {    /*color negro de navbar*/
+    background-color: $bglight;
+}
+
+$display:inline-block;
+
+main .form-control
+{
+    /* controla el crecimiento de la imagen al reducir la pantalla*/
+    display: $display;
+
+    /* override Bootstrap's 100% width for form controls*/
+    width: auto;
+}
