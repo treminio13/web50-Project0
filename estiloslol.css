@@ -4,11 +4,6 @@ body {
   background-size: cover;
 }
 
-.bg-light {
-  /*color negro de navbar*/
-  background-color: #212529 !important;
-}
-
 .textos {
   color: #e70c0c;
 }
@@ -50,5 +45,35 @@ main img {
   height: 100%;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+nav .navbar-brand {
+  font-size: x-large;
+  margin: center auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: x-large;
+}
+
+nav .navbar-brand .blue {
+  color: #1740c991;
+}
+
+nav .navbar-brand .red {
+  color: #ea433b;
+}
+
+nav .navbar-brand .orange {
+  color: #da7a0d;
+}
+
+.border {
+  border: 500px #25b143 !important;
+}
+
+.bg-light {
+  /*color negro de navbar*/
+  background-color: #212529 !important;
 }
 /*# sourceMappingURL=estiloslol.css.map */

@@ -6,10 +6,6 @@ body
     background-size: cover;
 }
  
-$bglight: #212529!important;
-.bg-light {    /*color negro de navbar*/
-    background-color: $bglight;
-}
 .textos
 {
     color: rgb(231, 12, 12);
@@ -68,4 +64,49 @@ $border:1px solid rgba( 255, 255, 255, 0.18 );
     width: 100%;
     border:$border;
 
+}
+
+$font: x-large;
+$margin: center auto;
+nav .navbar-brand
+{
+    font-size: $font;
+    margin: $margin;
+}
+
+$fontSize: x-large;
+.navbar-light .navbar-nav .nav-link
+{
+    font-size: $fontSize;
+
+}
+
+$navBrand:#1740c991;
+nav .navbar-brand .blue
+{
+    color: $navBrand;
+}
+
+$navred: #ea433b;
+nav .navbar-brand .red
+{
+    color: $navred;
+}
+
+$navyellow : #da7a0d;
+nav .navbar-brand .orange
+{
+    color: $navyellow;
+}
+
+$bordeNav: 500px #25b143!important;
+
+.border/*borde de la barra de navegacion */
+{
+    border: $bordeNav;
+}
+ 
+$bglight: #212529!important;
+.bg-light {    /*color negro de navbar*/
+    background-color: $bglight;
 }
